@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    margin-bottom: 50px; /* Space for fixed footer */
+}
+
+/* Blog Post Styles */
+.post {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+/* General Button Styles */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Styles for Delete Button */
+button[type="submit"] {
+    background-color: #e74d3cf7; /* Red background color */
+    color: white; /* White text color */
+    padding: 8px 16px; /* Medium size padding for button */
+    font-size: 0.9em; /* Slightly smaller font size */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Hover Effect for Delete Button */
+button[type="submit"]:hover {
+    background-color: #c03a2b70; /* Darker red on hover */
+}
+
+/* Container for post actions */
+.post-actions {
+    margin-top: 10px; /* Space above the action buttons */
+}
+
+/* Style for Read More, Edit, and Delete links/buttons */
+.post-actions a, .post-actions{
+    margin-right: 15px; /* Space between each action button/link */
+    text-decoration: none; /* Remove underline from links */
+    color: #1677af; /* Color for links */
+    border: 1px solid transparent; /* Ensure buttons and links are the same size */
+    padding: 5px 10px; /* Padding inside buttons/links */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Hover effects for Read More link */
+.post-actions a:hover {
+    color: #2980b9; /* Darker blue on hover */
+    border-bottom: 1px solid #2980b9; /* Add underline on hover */
+}
